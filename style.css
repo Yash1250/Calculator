@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bungee+Spice&family=Inter&family=Kanit:wght@500&family=Lato:wght@300;400&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    background-color: cadetblue;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    padding-top:33px ;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    color: rgb(243, 178, 72);
+}
+
+.container{
+    background-color: rgb(218, 183, 250);
+    height: 60vh;
+    width: 40vw;
+    margin-left: 28vw;
+    /* margin-top: 20vh; */
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.numbers{
+    background-color: azure;
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symbols{
+    background-color: azure;
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution{
+    background-color: aliceblue;
+    width: 39.9vw;
+    height: 10vh;
+    margin-left: 28vw;
+    margin-top: 10vh;
+    border: 1px solid black;
+    color: black;
+}
+
+h2{
+    margin-top: 23px;
+    font-size: 30px;
+    margin-left: 15px;
+}
